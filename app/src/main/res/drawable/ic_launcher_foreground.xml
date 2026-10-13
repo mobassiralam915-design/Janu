@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Audio Ripple Ring -->
+    <path
+        android:strokeWidth="2.5"
+        android:strokeColor="#55EC4899"
+        android:fillColor="#00000000"
+        android:pathData="M54,28 A26,26 0 1,0 54,80 A26,26 0 1,0 54,28" />
+        
+    <!-- Glowing Middle Wave Aura -->
+    <path
+        android:strokeWidth="3.0"
+        android:strokeColor="#998B5CF6"
+        android:fillColor="#00000000"
+        android:pathData="M54,34 A20,20 0 1,0 54,74 A20,20 0 1,0 54,34" />
+
+    <!-- Center Radiant Orb -->
+    <path
+        android:pathData="M54,39 A15,15 0 1,0 54,69 A15,15 0 1,0 54,39">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="42"
+                android:endX="66"
+                android:endY="66"
+                android:type="linear">
+                <item android:color="#F43F5E" android:offset="0.0" />
+                <item android:color="#A855F7" android:offset="0.5" />
+                <item android:color="#06B6D4" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Voice Soundwave Bars in Center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,50 h2.5 v8 h-2.5 z M50,45 h2.5 v18 h-2.5 z M54,42 h2.5 v24 h-2.5 z M58,45 h2.5 v18 h-2.5 z M62,50 h2.5 v8 h-2.5 z" />
+
+    <!-- Sassy Sparkle Accent -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M69,37 L70.5,41.5 L75,43 L70.5,44.5 L69,49 L67.5,44.5 L63,43 L67.5,41.5 Z" />
+</vector>
